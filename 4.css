@@ -1,0 +1,12 @@
+.inside {
+	margin: 0 60px;
+}
+.inside h1 {
+	font-size: 44.8px;
+	font-weight: 400;
+	width: 650px;
+	height: 120px;
+    background: linear-gradient(90deg, #943B4D 0%, #E75C5A 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

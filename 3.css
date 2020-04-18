@@ -1,0 +1,101 @@
+.field {
+	height: 300px;
+	display: flex;
+	margin-top: 35px;
+	z-index: 1;
+}
+.place {
+	display: flex;
+	margin-bottom: 100px;
+	width: 700px;
+	height: 60px;
+}
+.border {
+	width: 100px; 
+	height: 23px;
+	position: relative;
+	left: 70px;
+	top: 20px;
+	border-bottom: 2px solid black;
+}
+.monthly {
+	height: 40px;
+	width: 100px;
+	position: relative;
+	top: 20px;
+	left: 80px;
+	margin-left: 20px;
+}
+.online {
+	width: 200px;
+
+}
+div.monthly:hover a {
+	color: #717171;
+}
+div a {
+	text-decoration: none;
+	color: black;
+}
+#new {
+	width: 23px;
+	height: 10px;
+	padding: 4px 4px;
+	position: relative;
+	left: 145px; 
+	bottom: 15px;
+	background-color: red;
+	font-size: 10px;
+	color: white;
+	font-weight: 600;
+	border-radius: 5px;
+}
+.label {
+	height: 70px;
+	display: flex;
+	margin-top: 20px;
+	position: relative;
+	top: 50px;
+	right: 500px;
+	box-shadow: 0 2px 5px #CCC;
+	border-radius: 15px;
+}
+.location {
+	border-right: 1px solid #EEE;
+	padding: 15px 100px 15px 20px;
+	font-size: 10px;
+	font-weight: bold;
+	border-radius: 20px;
+}
+label input {
+	border: none;
+	width: 200px;
+	height: 25px;
+	box-sizing: border-box;
+}
+input:focus {
+	outline: none;
+}
+.search {
+	border-radius: 10px;
+	width: 110px;
+	height: 45px;
+	position: relative;
+	top: 13px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10px;
+	background: linear-gradient(90deg, rgba(237,93,85,1) 0%, rgba(222,89,98,1) 100%);
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+}
+ion-icon {
+	font-size: 17px;
+	margin-right: 2px;
+}
+.location:hover {
+	border: 2px solid #DDD;
+	transition:  all 0.15s;
+}

@@ -1,0 +1,76 @@
+.footer {
+	width: 1100px;
+	height: 70px;
+	margin: 0 70px;
+	border-top: 1px solid #DDD;
+}
+.foo {
+	height: 21px;
+	margin: 24px 0;
+	display: flex;
+}
+.inc {
+	width: 740px;
+	height: 20px;
+	display: flex;
+	font-size: 14px;
+	color: #222222;
+}
+.inc span {
+	width: 16px;
+	height: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inc a:hover {
+	color: #484848;
+	text-decoration: underline;
+}
+.icon {
+	width: 330px;
+	height: 20px;
+	position: relative;
+	left: 25px;
+	display: flex;
+}
+.US {
+	width: 200px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+}
+.US img {
+	width: 16px;
+	height: 16px;
+}
+.US a:hover {
+	color: #484848;
+}
+.US span {
+	margin: 0 8px;
+	font-size: 14px;
+	position: relative;
+	bottom: 2px;
+	text-decoration: underline;
+}
+.icon ul {
+	height: 25px;
+	width: 80px;
+	display: flex;
+	position: relative;
+	bottom: 20px;
+	left: 10px;
+}
+.icon li {
+	position: relative;
+	right: 40px;
+	margin-right: 13px;
+}
+li ion-icon {
+	font-size: 24px;
+	margin-right: 5px;
+}
+li ion-icon:hover {
+	color: #484848;
+}

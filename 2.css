@@ -1,0 +1,118 @@
+.topbar {
+	display: flex;
+  	position: sticky;
+  	top: 0;
+	margin-top: 0px;
+	background-color: white;
+	z-index: 1;
+}
+.topbar .airbnb a {
+	padding-top: 20px;
+	text-align: center;
+	width: 120px;
+	color: #FF385C;
+	font-size: 23px;
+	font-weight: 600;
+	text-decoration: none;
+	margin-left: 60px;
+	display: block;
+}
+.topbar .airbnb img {
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
+.topbar .airbnb p {
+	display: inline;
+	position: relative;
+	bottom: 8px;
+}
+.opt {
+	position: relative;
+	left: 420px;
+}
+.btnMenu {
+	width: 70px;
+	height: 22px;
+	top: 12px;
+	display: inline-block;
+}
+.common {
+	padding: 10px 13px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 15px;
+}
+.common:hover {
+	background-color: #F7F7F7;
+}
+.menu a {
+	text-decoration: none;
+	color: #222222;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 130px;
+	z-index: 2;
+	
+}
+.menu {
+	border: 1px solid #DDD;
+	position: relative;
+	right: 90px;
+	top: 10px;
+	display: inline-block;
+	box-shadow: 0 0 15px #DDD;
+	border-radius: 20px;
+	background-color: white;
+	z-index: 2;
+	visibility: hidden;
+}
+.btnMenu:hover .menu {
+	visibility: visible;
+}
+li {
+	float: left;
+}
+ul {
+	list-style: none;
+}
+.topbar .info img {
+	width: 15px;
+	height: 15px;
+	padding-right: 7px;
+}
+.topbar .info .dol {
+	position: relative;
+	right: 31px;
+}
+.sign {
+	height: 22px;
+	padding: 9px 15px;
+	border: 1px solid #DDD;
+	border-radius: 25px;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	color: #222222;
+	font-size: 14px;
+	font-weight: 600;
+}
+.sign:hover {
+	box-shadow: 0 1px 5px #CCC;
+	background-color: white;
+}
+.common {
+	border-radius: 15px;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	color: #222222;
+	font-size: 14px;
+	font-weight: 600;
+}

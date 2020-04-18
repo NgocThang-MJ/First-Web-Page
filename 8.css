@@ -1,0 +1,53 @@
+.informed {
+	height: 480px;
+	background-color: #F7F7F7;
+	position: relative;
+	bottom: 80px;
+}
+.informed section {
+	height: 480px;
+	margin: 0 80px;
+	display: flex;
+	position: relative;
+	bottom: 40px;
+}
+.informed h1 {
+	font-size: 22px;
+	width: 700px;
+	margin-top: 80px;
+	position: relative;
+	top: 100px;
+	left: 80px;
+}
+.infomation {
+	width: 260px;
+	height: 300px;
+	position: relative;
+	top: 140px;
+	/*border: 1px solid green;*/
+	margin-right: 7px;
+}
+.top {
+	height: 40px;
+	border-bottom: 1px solid #DDD;
+	margin-top: 30px;
+	font-size: 18px;
+}
+.span {
+	width: 260px;
+	height: 72px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-bottom: 1px solid #DDD;
+}
+.larger {
+	font-weight: 600;
+}
+.smaller {
+	color: #717171;
+	font-size: 14px;
+}
+.diff {
+	border: none;
+}

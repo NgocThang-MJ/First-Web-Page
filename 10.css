@@ -1,0 +1,36 @@
+.final {
+	height: 405px;
+}
+.about {
+	width: 1100px;
+	height: 330px;
+	margin: 0 70px;
+	display: flex;
+}
+.about section {
+	width: 250px;
+	height: 275px;
+	position: relative;
+	top: 30px;
+	margin-right: 20px;
+}
+section h4 {
+	font-size: 12px;
+}
+.list {
+	width: 210px;
+	height: 230px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+}
+.list li {
+	margin-bottom: 20px;
+	position: relative;
+	right: 40px;
+	font-size: 14px;
+	color: #484848;
+}
+.list li a:hover {
+	text-decoration: underline;
+}

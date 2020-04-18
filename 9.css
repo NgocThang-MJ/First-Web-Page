@@ -1,0 +1,43 @@
+.des {
+	border-bottom: 1px solid #DDD;
+	height: 330px;
+	position: relative;
+	display: flex;
+	bottom: 80px;
+	color: #222222;
+}
+.des h3 {
+	font-size: 18.72px;
+	font-weight: 600;
+	position: absolute;
+	left: 80px;
+	top: 25px;
+	width: 1100px;
+}
+.destination {
+	width: 265px;
+	height: 260px;
+	position: relative;
+	top: 70px;
+	left: 80px;
+	margin-right: 20px;
+}
+.san {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #DDD;
+	height: 40px;
+	position: relative;
+	top: 15px;
+	font-weight: 600;
+}
+.san div {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
+.san div:hover {
+	text-decoration: underline;
+}
+.differ {
+	border-bottom: none;
+}

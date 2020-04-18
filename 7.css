@@ -1,0 +1,43 @@
+.hero {
+	height: 325px;
+}
+.inHero {
+	height: 165px;
+	margin: 80px 0;
+	display: flex;
+}
+.involved {
+	width: 560px;
+	height: 163px;
+	position: relative;
+	left: 80px;
+}
+.house h1 {
+	width: 460px;
+	height: 105px;
+	position: relative;
+	bottom: 22px;
+}
+.get {
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: 600;
+	width: 115px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	bottom: 25px;
+}
+.get:hover {
+	background-color: #F7F7F7;
+}
+.content {
+	width: 450px;
+	height: 135px;
+	font-size: 18px;
+	line-height: 28px;
+	color: #222222;
+}

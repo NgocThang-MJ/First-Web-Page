@@ -1,0 +1,51 @@
+.imgText {
+	height: 370px;
+}
+.imgChild {
+	height: 340px;
+	margin-top: 20px;
+}
+.flowImg {
+	display: flex;
+	margin-top: 2px;
+}
+.flowImg li {
+	margin-right: 15px;
+}
+.flowImg .first {
+	margin-left: 25px;
+}
+.flowImg a {
+	padding: 0;
+}
+.img {
+	width: 360px;
+	height: 240px;
+	background-image: url('https://picsum.photos/360/240');
+	background-repeat: no-repeat;
+	border-radius: 20px 20px 0 0;
+}
+.text {
+	width: 359px;
+	height: 95px;
+	border: 1px solid #DDD;
+	border-radius: 0 0 20px 20px;
+	box-shadow: 0 3px 5px #DDD;
+}
+.textChild1 {
+	width: 320px;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align: left;
+	
+}
+.textChild2 {
+	width: 320px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #717171;
+	margin-left: 20px;
+	text-align: left;
+}
